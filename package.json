@@ -1,0 +1,14 @@
+{
+  "name": "text-game",
+  "version": "1.0.0",
+  "description": "A simple text-based adventure game",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/engine-test.js"
+  },
+  "author": "Oliver Clare",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
