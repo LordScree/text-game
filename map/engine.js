@@ -67,6 +67,7 @@ const direction = {
     west: 8
 }
 
+// The game map provides a stage for the game.
 var gameMap = function (name) {
     if (!name) {
         throw "Name is required!"
@@ -97,6 +98,7 @@ var gameMap = function (name) {
     }
 }
 
+// Each area is split into zones.
 var gameArea = function (name, size) {
     if (!name) {
         throw "Name is required!"
@@ -153,6 +155,7 @@ var gameArea = function (name, size) {
     }
 }
 
+// Each zone is a room or location where the magic happens.
 var gameZone = function (name, exits) {
     if(!name) {
         throw "Name is required!"
